@@ -1,14 +1,30 @@
 body {
-    text-align: center;
+  text-align: center;
 }
 
 #finalResult {
-    font-weight: bold;
+  font-weight: bold;
 }
 
-.button {
-    height: 100px; 
-    width: 100px;
-    border: 2px solid black;
-    font-weight : bold;
+.parent {
+  display: grid;
+  grid-gap: 2px;
+  grid-template-columns: repeat(3, 100px);
+  grid-template-rows: repeat(3, 100px);
+}
+
+.parent > div {
+  position: relative;
+  left: 485px;
+  background-color: #add8e6;
+  border: 2px solid black;
+  padding: 10px;
+  display: grid;
+  align-items: center;
+}
+
+.parent > div {
+  font-family: sans-serif;
+  font-size: 50px;
+  font-weight: bold;
 }

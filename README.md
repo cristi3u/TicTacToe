@@ -1,3 +1,1 @@
 # TicTacToe
-
-ana ar mere

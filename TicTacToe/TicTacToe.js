@@ -45,7 +45,7 @@ function verifyTheWinner() {
     }
     if (disableAll == 0) {
 	for (let i = 1; i <= 9; ++i) {
-	document.getElementById(i).disabled = true;
+	    document.getElementById(i).disabled = true;
 	}
     }
     if (index == 9) {
